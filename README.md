@@ -1,4 +1,6 @@
-- 👋 Hi, I’m @udezueoluomachi
+- 👋 Hi, I’m @udezueoluomachi a full stack web developer.
+
+JavaScript is the language I use.
 
 
 I am interested in creating solutions to problems by writing lines of creative codes.
