@@ -1,27 +1,15 @@
-- 👋 Hi, I’m @udezueoluomachi a full stack web developer.
+Udezue Oluomachi Chimaobi is a full stack web developer.
 
-JavaScript is the language I use.
-
-
-I am interested in creating solutions to problems by writing lines of creative codes.
+Who uses JavaScript and is interested in creating solutions to problems by writing lines of creative codes.
 
 
-I am currently learning almost every popular JavaScript frameworks and libraries.
+He is currently learning almost every popular JavaScript frameworks and libraries.
 
 
-I am 17years old as at 2021.
+He is 17years old as at 2021 and is looking to collaborate on so many big time projects.
 
 
-I am looking to collaborate on so many big time projects.
+You can contact him on Facebook WhatsApp and Instagram
 
 
-You can contact me on Facebook WhatsApp and Instagram
-
-
-My WhatsApp number is +2349138280145
-
-
-My Facebook name is Udezue Oluomachi Chimaobi.
-
-
-On Instagram I am Basil Chimaobi.
+His Facebook name is Udezue Oluomachi Chimaobi
