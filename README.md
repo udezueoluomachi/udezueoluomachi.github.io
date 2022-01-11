@@ -1,8 +1,8 @@
-##About me
+# About me
 
 I am a teenage _full stack web developer_ from **Nigeria**.
 
-##What I know
+# Skills
 
 **jQuery , HTML , CSS , Vanilla js , Node js , MySQL , Graphics design**
 
