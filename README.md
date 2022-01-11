@@ -6,12 +6,18 @@ I am a teenage _full stack web developer_ from **Nigeria**.
 
 # Skills
 
-**jQuery , HTML , CSS , Vanilla js , Node js , MySQL , Graphics design**
+* **jQuery**
+* **HTML**
+* **CSS**
+* **Vanilla js** 
+* **Node js**
+* **MySQL**
+* **Graphics design**
 
 
 
-Follow me on
+### Follow me on
 
-[Facebook](facebook.com/udezueoluomachi.chimaobi)
+* [Facebook](facebook.com/udezueoluomachi.chimaobi)
 
-[GitHub](GitHub.com/udezueoluomachi)
+* [GitHub](GitHub.com/udezueoluomachi)
