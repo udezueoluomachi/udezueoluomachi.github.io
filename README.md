@@ -18,6 +18,6 @@ I am a teenage _full stack web developer_ from **Nigeria**.
 
 ### Follow me on
 
-* [Facebook](facebook.com/udezueoluomachi.chimaobi)
+* [Facebook](https://www.facebook.com/udezueoluomachi.chimaobi)
 
-* [GitHub](GitHub.com/udezueoluomachi)
+* [GitHub](https://www.gitHub.com/udezueoluomachi)
