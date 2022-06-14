@@ -1,23 +1,10 @@
-# About me
-
-I am a teenage _full stack web developer_ from **Nigeria**.
-> 17years old as at 2021 and is looking to collaborate on so many big time projects.
-
+# <center>Role in tech</center>
+**Web developer**
 
 # Skills
 
-* **jQuery**
-* **HTML**
-* **CSS**
-* **Vanilla js** 
-* **Node js**
-* **MySQL**
-* **Graphics design**
 
-
-
-### Follow me on
-
-* [Facebook](https://www.facebook.com/udezueoluomachi.chimaobi)
-
-* [GitHub](https://www.gitHub.com/udezueoluomachi)
+![skills](https://img.shields.io/badge/-JAVASCRIPT-FF0000?style=for-the-badge&logo=javascript&logoColor=white&color=red)
+![skills](https://img.shields.io/badge/-HTML-FF0000?style=for-the-badge&logo=html5&logoColor=white&color=green)
+![skills](https://img.shields.io/badge/-CSS-FF0000?style=for-the-badge&logo=css3&logoColor=white&color=indigo)
+![skills](https://img.shields.io/badge/-NODEJS-FF0000?style=for-the-badge&logo=nodejs&logoColor=black&color=green)
