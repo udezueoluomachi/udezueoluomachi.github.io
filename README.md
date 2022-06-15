@@ -14,7 +14,7 @@ I make the web better
 ![skills](https://img.shields.io/badge/-J_Query-FF0000?style=for-the-badge&logo=jquery&logoColor=white&color=brown)
 ![skills](https://img.shields.io/badge/-PHP-FF0000?style=for-the-badge&logo=PHP&logoColor=white&color=yellow)
 ![skills](https://img.shields.io/badge/-MYSQL-FF0000?style=for-the-badge&logo=MYSQL&logoColor=white&color=blue)
-![skills](https://img.shields.io/badge/-NO_SQL_JSON_DB-FF0000?style=for-the-badge&logo=JAVASCRIPT&logoColor=white&color=grey)
+[![skills](https://img.shields.io/badge/-NO_SQL_JSON_DB-FF0000?style=for-the-badge&logo=JAVASCRIPT&logoColor=white&color=grey)](https://github.com/udezueoluomachi/nosql-json-db)
 ![skills](https://img.shields.io/badge/-Python-FF0000?style=for-the-badge&logo=Python&logoColor=white&color=orange)
 
 
