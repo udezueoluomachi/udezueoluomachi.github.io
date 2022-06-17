@@ -1,6 +1,11 @@
-<h1 align="center">Full Stack Web developer</h1>
+![Udezue Oluomachi Chimaobi](https://raw.githubusercontent.com/udezueoluomachi/udezueoluomachi/main/tmp-cam-1071979276557280280.jpg)
 
-I make the web better
+
+<h3 align="center">Udezue Oluomachi Chimaobi</h3>
+
+<h4 align="center">Full Stack Web developer</h4>
+
+<p align="center">I make the web better</p>
 
 <br/>
 
