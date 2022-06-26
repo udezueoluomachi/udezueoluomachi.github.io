@@ -18,6 +18,9 @@
     scroll-behavior: smooth;
     transition: 2s;
 }
+html.sr .scroll-reveal  {
+    visibility: hidden;
+}
 html , body {
     background: #030c1f;
     overflow-x: hidden;
@@ -147,7 +150,6 @@ a:hover {
 .github-stats {
     width: 60vw;
     min-width: 300px;
-    
 }
 h2.title {
     font-size: 42px;
@@ -322,6 +324,14 @@ div.pop-menu {
 }
 /*media queries*/
 @media only screen and (max-width:400px) {
+    .section-4 {
+        margin-top: 10px;
+        padding: 10px;
+    }
+    .section-4 .about-me-contents {
+        margin-top: 40px;
+        padding: 8px;
+    }
     .menu-toggle-btn {
         display: block;
     }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en" dir="ltr" class="sr">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +10,16 @@
         <link rel="stylesheet" href="./css/all.min.css">
         <link rel="stylesheet" href="./animate.css"/>
         <script src="./jquery.js"></script>
+        <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+        <meta name="og:title" content="Udezue Oluomachi Chimaobi | Personal Portfolio Website" />
+        <meta name="og:url" content="https://udezueoluomachi.github.io/udezueoluomachi" />
+        <meta name="og:site_name" content="Udezue Oluomachi Chimaobi" />
+        <meta name="og:image" content="./images/social.jpg" />
+        <meta name="og:description" content="Udezue Oluomachi Chimaobi's personal portfolio site" />
+        <meta property="twitter:title" content="Udezue Oluomachi Chimaobi | Personal Portfolio Website"/>
+        <meta property="twitter:image" content="./images/social.jpg"/>
+        <meta property="twitter:url" content="https://udezueoluomachi.github.io/udezueoluomachi"/>
+        <meta property="twitter:description" content="Udezue Oluomachi Chimaobi's personal portfolio site"/>
     </head>
     <body>
         <div class="gradient-filled-section-1">
@@ -22,7 +32,7 @@
                     <nav>
                         <a href="./" class="nav-link active">Home</a>
                         <a href="#projects" class="nav-link">Projects</a>
-                        <a href="#contact" class="nav-link">Contact</a>
+                        <a href="mailto:basilchimaobi2@gmail.com" class="nav-link">Contact</a>
                     </nav>
                 </div>
                 <div class="social-links">
@@ -45,7 +55,7 @@
                     <nav>
                         <a href="./" class="nav-link active block">Home</a>
                         <a href="#projects" class="nav-link block">Projects</a>
-                        <a href="#contact" class="nav-link block">Contact</a>
+                        <a href="mailto:basilchimaobi2@gmail.com" class="nav-link block">Contact</a>
                     </nav>
                     <div class="social-links-in-pop-menu centered-x">
                         <a href="https://github.com/udezueoluomachi" title="My github profile">
@@ -61,29 +71,29 @@
                 </div>
             </div>
             <br/>
-            <div class="section-1 flex">
+            <div class="section-1 scroll-reveal-section-1 flex">
                 <div class="section-1-half">
-                    <p class="hello animate__animated animate__zoomIn">
+                    <p class="hello animate__animated animate__zoomIn zoom-in">
                         Hello , I am
                     </p>
                     <br/>
-                    <H1 class="animate__animated animate__zoomIn">UDEZUE OLUOMACHI CHIMAOBI</H1>
+                    <H1 class="animate__animated animate__zoomIn zoom-in">UDEZUE OLUOMACHI CHIMAOBI</H1>
                     <br/>
                     <br/>
-                    <p class="descriptive animate__animated animate__zoomIn">
+                    <p class="descriptive animate__animated animate__zoomIn zoom-in">
                         A Full Stack Developer
                     </p>
-                    <p class="exp animate__animated animate__zoomIn">
+                    <p class="exp animate__animated animate__zoomIn zoom-in">
                         I solve problems by writing creative lines of codes
                     </p>
-                    <a href="#contact" class="contact-link block animate__animated animate__slideInUp" >Contact Me</a>
+                    <a href="mailto:basilchimaobi2@gmail.com" class="contact-link block animate__animated animate__slideInUp slide-in-up" >Contact Me</a>
                 </div>
                 <div class="section-1-half dev-illustration">
-                    <img src="./images/dev-1.svg" alt="failed to load image" class="illustration-in-section-1 animate__animated animate__slideInUp">
+                    <img src="./images/dev-1.svg" alt="failed to load image" class="illustration-in-section-1 slide-in-up animate__animated animate__slideInUp">
                 </div>
             </div>
         </div>
-        <div class="white-background section-2 skills-section">
+        <div class="white-background section-2 skills-section scroll-reveal">
             <div class="blue-background-1 section-2-inner-section">
                 <h2 class="title centered-x">
                     My Skills & Stacks
@@ -159,7 +169,7 @@
             <br/>
             <br/>
             <div class="flex project-card-cont">
-                <div class="project-card">
+                <div class="project-card scroll-reveal">
                     <div class="project-image">
                         <img src="./images/ticky-pc.jpg" alt="Failed to load">
                     </div>
@@ -178,7 +188,7 @@
                         Status : Complete
                     </p>
                 </div>
-                <div class="project-card">
+                <div class="project-card scroll-reveal">
                     <div class="project-image">
                         <img src="./images/labour-search.jpg" alt="Failed to load">
                     </div>
@@ -197,7 +207,7 @@
                         Status : Pending
                     </p>
                 </div>
-                <div class="project-card">
+                <div class="project-card scroll-reveal">
                     <div class="project-image">
                         <img src="./images/amabo-learn.png" alt="Failed to load">
                     </div>
@@ -216,7 +226,7 @@
                         Status : Complete
                     </p>
                 </div>
-                <div class="project-card">
+                <div class="project-card scroll-reveal">
                     <div class="project-image">
                         <img src="./images/nosqljsondb.png" alt="Failed to load">
                     </div>
@@ -235,7 +245,7 @@
                         Status : Complete
                     </p>
                 </div>
-                <div class="project-card">
+                <div class="project-card scroll-reveal">
                     <div class="project-image">
                         <img src="./images/ripplejs.png" alt="Failed to load">
                     </div>
@@ -261,18 +271,16 @@
                 <br/>
                 <br/>
                 <br/>
-                <br/>
-                <br/>
                 <h2 class="title" align="center"> My GitHub Stats</h2>
                 <br/>
                 <br/>
-                <img align="center" width="100%" src="http://github-readme-streak-stats.herokuapp.com?user=udezueoluomachi&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&background=22272E00&dates=A1A1AA&currStreakNum=FBBF24&ring=FBBF24&fire=FBBF24&sideNums=A1A1AA&currStreakLabel=FBBF24&sideLabels=FBBF24&stroke=FFFFFF51)](https://git.io/streak-stats" />
+                <img align="center" class="scroll-reveal" width="100%" src="http://github-readme-streak-stats.herokuapp.com?user=udezueoluomachi&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&background=22272E00&dates=A1A1AA&currStreakNum=FBBF24&ring=FBBF24&fire=FBBF24&sideNums=A1A1AA&currStreakLabel=FBBF24&sideLabels=FBBF24&stroke=FFFFFF51)](https://git.io/streak-stats" />
                 <br/>
-                <img align="center" width="100%" src="https://github-readme-stats.vercel.app/api?username=udezueoluomachi&bg_color=22272e00&hide_border=true&text_color=A1A1AA&title_color=fbbf24&include_all_commits=true" />
+                <img align="center" class="scroll-reveal" width="100%" src="https://github-readme-stats.vercel.app/api?username=udezueoluomachi&bg_color=22272e00&hide_border=true&text_color=A1A1AA&title_color=fbbf24&include_all_commits=true" />
                 <br/>
-                <img align="center" width="100%" src="https://github-readme-stats.vercel.app/api/top-langs?username=udezueoluomachi&layout=compact&bg_color=22272e00&hide_border=true&text_color=A1A1AA&title_color=fbbf24" />
+                <img align="center" class="scroll-reveal" width="100%" src="https://github-readme-stats.vercel.app/api/top-langs?username=udezueoluomachi&layout=compact&bg_color=22272e00&hide_border=true&text_color=A1A1AA&title_color=fbbf24" />
                 <br/>
-                <img align="center" width="100%" src="https://activity-graph.herokuapp.com/graph?username=udezueoluomachi&bg_color=22272e00&hide_border=true&color=fbbf24&area_color=A1A1AA&title_color=fbbf24&line=fbbf24&point=A16207)"/>
+                <img align="center" class="scroll-reveal" width="100%" src="https://activity-graph.herokuapp.com/graph?username=udezueoluomachi&bg_color=22272e00&hide_border=true&color=fbbf24&area_color=A1A1AA&title_color=fbbf24&line=fbbf24&point=A16207)"/>
             </div>
             <br/>
             <br/>
@@ -294,7 +302,7 @@
             </p>
         </div>
         <hr/>
-        <div class="section-5 blue-background-1" id="contact">
+        <div class="section-5 blue-background-1 none" id="contact" >
             <h2 class="title">
                 Contact Me
             </h2>
@@ -347,6 +355,20 @@
                             );
                         }
                     );
+                    //scroll-reveal
+                    ScrollReveal({reset : true}).reveal('.scroll-reveal', {
+                        delay:300,
+                        distance: '10%',
+                        origin: 'bottom'
+                    });
+                    const zoomIn = $('.zoom-in');
+                    const slideInUp = $('.slide-in-up');
+                    ScrollReveal({reset : true}).reveal('.section-1',{
+                        delay:150,
+                        beforeReveal : () => {
+                            zoomIn.toggleClass('animate__zoomIn');
+                            slideInUp.toggleClass('animate__slideInUp');
+                        }});
                 }
             );
         </script>
