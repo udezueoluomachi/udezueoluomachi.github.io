@@ -8,12 +8,15 @@
         <link rel="icon" href="./images/favicon.jpg">
         <link rel="stylesheet" href="./index.css"/>
         <link rel="stylesheet" href="./css/all.min.css">
+        <link rel="stylesheet" href="./animate.css"/>
+        <script src="./jquery.js"></script>
     </head>
     <body>
         <div class="gradient-filled-section-1">
             <header class="flex">
                 <div class="logo">
-                    CHIMA's <span style="font-size: x-small; color: rgb(137, 236, 240);">portfolio</span>
+                    <div>CHIMA's</div>
+                    <div style="font-size: x-small; color: rgb(137, 236, 240);">portfolio</div>
                 </div>
                 <div class="nav-links">
                     <nav>
@@ -33,27 +36,50 @@
                         <i class="fab fa-twitter"></i>
                     </a>
                 </div>
+                <button class="menu-toggle menu-toggle-btn none">
+                    <i class="fas fa-bars"></i>
+                </button>
             </header>
+            <div class="menu-cont flex centered-content none menu-toggle animate__animated animate__zoomIn">
+                <div class="pop-menu">
+                    <nav>
+                        <a href="./" class="nav-link active block">Home</a>
+                        <a href="#projects" class="nav-link block">Projects</a>
+                        <a href="#contact" class="nav-link block">Contact</a>
+                    </nav>
+                    <div class="social-links-in-pop-menu centered-x">
+                        <a href="https://github.com/udezueoluomachi" title="My github profile">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://facebook.com/udezueoluomachi.chimaobi" title="My facebook profile">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://twitter.com/BasilChimaobi" title="My twitter profile">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
             <br/>
             <div class="section-1 flex">
                 <div class="section-1-half">
-                    <p class="hello">
+                    <p class="hello animate__animated animate__zoomIn">
                         Hello , I am
                     </p>
                     <br/>
-                    <H1>UDEZUE OLUOMACHI CHIMAOBI</H1>
+                    <H1 class="animate__animated animate__zoomIn">UDEZUE OLUOMACHI CHIMAOBI</H1>
                     <br/>
                     <br/>
-                    <p class="descriptive">
+                    <p class="descriptive animate__animated animate__zoomIn">
                         A Full Stack Developer
                     </p>
-                    <p class="exp">
+                    <p class="exp animate__animated animate__zoomIn">
                         I solve problems by writing creative lines of codes
                     </p>
-                    <a href="#contact" class="contact-link block">Contact Me</a>
+                    <a href="#contact" class="contact-link block animate__animated animate__slideInUp" >Contact Me</a>
                 </div>
                 <div class="section-1-half dev-illustration">
-                    <img src="./images/dev-1.svg" alt="failed to load image" class="illustration-in-section-1">
+                    <img src="./images/dev-1.svg" alt="failed to load image" class="illustration-in-section-1 animate__animated animate__slideInUp">
                 </div>
             </div>
         </div>
@@ -123,27 +149,183 @@
             </div>
         </div>
         <br/>
-        <div class="section-3 white-background">
+        <div class="section-3 white-background centered-x" id="projects">
             <br/>
             <br/>
             <br/>
-            <h2 class="title blue-color">
+            <h2 class="title deep-blue-color">
                 My Projects
             </h2>
             <br/>
             <br/>
             <div class="flex project-card-cont">
                 <div class="project-card">
+                    <div class="project-image">
+                        <img src="./images/ticky-pc.jpg" alt="Failed to load">
+                    </div>
+                    <div class="project-name">
+                        <h3>
+                            <a href="https://udezueoluomachi.github.io/ticky">Ticky</a>
+                        </h3>
+                    </div>
+                    <div class="project-description">
+                        <p>A Multiplayer / Singleplayer Tic-Tac-Toe Game</p>
+                    </div>
+                    <div class="project-github-link">
+                        <a href="https://github.com/udezueoluomachi/ticky">view on github <i class="fab fa-github"></i></a>
+                    </div>
+                    <p class="project-status" align="center">
+                        Status : Complete
+                    </p>
                 </div>
                 <div class="project-card">
+                    <div class="project-image">
+                        <img src="./images/labour-search.jpg" alt="Failed to load">
+                    </div>
+                    <div class="project-name">
+                        <h3>
+                            Labour Search
+                        </h3>
+                    </div>
+                    <div class="project-description">
+                        <p>A platform for finding labour anywhere you are</p>
+                    </div>
+                    <div class="project-github-link">
+                        <a href="#">view on github <i class="fab fa-github"></i></a>
+                    </div>
+                    <p class="project-status" align="center">
+                        Status : Pending
+                    </p>
                 </div>
                 <div class="project-card">
+                    <div class="project-image">
+                        <img src="./images/amabo-learn.png" alt="Failed to load">
+                    </div>
+                    <div class="project-name">
+                        <h3>
+                            <a href="https://udezueoluomachi.github.io/amabolearn">Amabolearn</a>
+                        </h3>
+                    </div>
+                    <div class="project-description">
+                        <p>An Online Learning Platform for Highschool Students</p>
+                    </div>
+                    <div class="project-github-link">
+                        <a href="https://github.com/udezueoluomachi/amabolearn">view on github <i class="fab fa-github"></i></a>
+                    </div>
+                    <p class="project-status" align="center">
+                        Status : Complete
+                    </p>
                 </div>
                 <div class="project-card">
+                    <div class="project-image">
+                        <img src="./images/nosqljsondb.png" alt="Failed to load">
+                    </div>
+                    <div class="project-name">
+                        <h3>
+                            <a href="https://udezueoluomachi.github.io/nosqljsondb">NO SQL JSON-DB</a>
+                        </h3>
+                    </div>
+                    <div class="project-description">
+                        <p>A NodeJS Module for Performing CRUD actions on a JSON file as a Database</p>
+                    </div>
+                    <div class="project-github-link">
+                        <a href="https://github.com/udezueoluomachi/nosqljsondb">view on github <i class="fab fa-github"></i></a>
+                    </div>
+                    <p class="project-status" align="center">
+                        Status : Complete
+                    </p>
                 </div>
                 <div class="project-card">
+                    <div class="project-image">
+                        <img src="./images/ripplejs.png" alt="Failed to load">
+                    </div>
+                    <div class="project-name">
+                        <h3>
+                            <a href="https://udezueoluomachi.github.io/ripplejs">Flexi-Ripplejs</a>
+                        </h3>
+                    </div>
+                    <div class="project-description">
+                        <p>The world's most flexible UI library for adding ripple effects triggered by mouse events on HTML elements</p>
+                    </div>
+                    <div class="project-github-link">
+                        <a href="https://github.com/udezueoluomachi/ripplejs">view on github <i class="fab fa-github"></i></a>
+                    </div>
+                    <p class="project-status" align="center">
+                        Status : Complete
+                    </p>
                 </div>
             </div>
         </div>
+        <div class="section-4">
+            <h2 class="title">
+                About Me
+            </h2>
+            <p class="about-me-contents">
+                I am a fullstack web developer from Nigeria. I was born in the year 2004 on the month of May. I am very passionate about computer programming. I live Lagos , Nigeria. My aim is to solve problems by writing codes. I started my coding journey right before I got into highschool.
+                <br/>
+                <br/>
+                I have solved few problems by writing codes and I am ready to solve more problems. That is what I live for. I feel like that is my purpose in life. My favorite quote is <q>Luck is for the unprepared</q>
+                <br/>
+                <br/>
+                <big><em>I am open to jobs</em></big>
+            </p>
+        </div>
+        <hr/>
+        <div class="section-5 blue-background-1" id="contact">
+            <h2 class="title">
+                Contact Me
+            </h2>
+            <div class="form-container centered-x">
+                <h3 class="white-color centered-text">Send an Email</h3>
+                <br/>
+                <br/>
+                <form action="#" method="get">
+                    <input type="text" name="name" id="name" class="contact-form-field block centered-x" placeholder="First name" required/>
+                    <input type="email" name="email" id="email" class="contact-form-field block centered-x" placeholder="Email address" required/>
+                    <input type="text" name="subject" id="subject"  class="contact-form-field block centered-x" placeholder="Subject" required/>
+                    <textarea name="message" id="message"  class="contact-form-field block centered-x" placeholder="Message..." required></textarea>
+                    <input type="submit" value="Send" class="contact-form-field block centered-x" id="submit">
+                </form>
+            </div>
+        </div>
+        <button class="block back-to-top-btn none">
+            &lt;
+        </button>
+        <script>
+            $(document).ready(
+                () => {
+                    const backToTopBtn = $('.back-to-top-btn');
+                    let scrollHeightRec , scrollTopPercent , scrollTopRec;
+                    function toggleBackToTopBtn() {
+                        scrollHeightRec = document.body.scrollHeight;
+                        scrollTopRec = $('html').scrollTop();
+                        scrollTopPercent = 100 * scrollTopRec / scrollHeightRec;
+                        if(scrollTopPercent > 5) {
+                            backToTopBtn.removeClass('none');
+                        }
+                        else {
+                            backToTopBtn.addClass('none');
+                        }
+                    }
+                    toggleBackToTopBtn();
+                    document.body.onscroll = toggleBackToTopBtn;
+                    backToTopBtn.click(() => {
+                        $('html').scrollTop(0);
+                        backToTopBtn.addClass('none')
+                    });
+                    const menuToggle = $(".menu-toggle");
+                    const menu = $(".menu-cont");
+                    menuToggle.click(
+                        () => {
+                            setTimeout(
+                                () => {
+                                    menu.toggleClass(["none","animate__fadeOut"]);
+                                },500
+                            );
+                        }
+                    );
+                }
+            );
+        </script>
     </body>
 </html>
