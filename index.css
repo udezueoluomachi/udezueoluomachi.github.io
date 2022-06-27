@@ -190,6 +190,7 @@ h2.title {
     height: 68vh;
     min-height: 450px;
     max-width: 400px;
+    max-height: 500px;
     background-color: rgb(228, 230, 255);
     border-radius: 5px;
     margin: 12px;
