@@ -16,7 +16,7 @@
     color: aliceblue;
     letter-spacing: 1px;
     scroll-behavior: smooth;
-    transition: 2s;
+    transition: 0.3s;
 }
 html.sr .scroll-reveal  {
     visibility: hidden;
@@ -63,6 +63,7 @@ header {
     background: none;
     border: none;
     z-index: 1;
+    font-size: large;
 }
 .logo div, a:active , a.active , .social-links {
     color: rgb(0, 102, 255);
@@ -323,7 +324,21 @@ div.pop-menu {
     margin-top: 40%;
     width: max-content;
 }
+.about-me-content-cont {
+    justify-content: space-between;
+    align-items: center;
+}
+.about-me-content-cont p {
+    margin: 2vw;
+}
 /*media queries*/
+@media only screen and (max-width:800px) {
+    .about-me-content-cont {
+        justify-content: space-between;
+        align-items: center;
+        display: block;
+    }
+}
 @media only screen and (max-width:400px) {
     .section-4 {
         margin-top: 10px;
