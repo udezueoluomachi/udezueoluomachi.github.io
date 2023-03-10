@@ -49,7 +49,7 @@ I am a teenage full stack web developer from Nigeria. 18 years old and looking f
   <a href="https://facebook.com/udezueoluomachi.chimaobi">
     <img src="https://img.shields.io/badge/-UDEZUE_OLUOMACHI_CHIMAOBI-FF0000?style=for-the-badge&logo=facebook&logoColor=white&color=blue" />
   </a>
-  <a href="https://twitter.com/@BasilChimaobi">
+  <a href="https://twitter.com/@udezueoluomachi">
     <img src="https://img.shields.io/badge/-UDEZUE_OLUOMACHI_CHIMAOBI-0000FF?style=for-the-badge&logo=twitter&logoColor=white" />
   </a>
   
