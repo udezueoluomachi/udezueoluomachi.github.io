@@ -1,8 +1,8 @@
 
 <h1 align="center">Hey There 👋 I'm Udezue Oluomachi Chimaobi</h1>
-<h4 align="center">FULL STACK DEVELOPER</h4>
+<h4 align="center">Full Stack Web & Cross Platform App Developer</h4>
 
-<h4 align="center">I make the web better</h4>
+<h4 align="center">I solve problems by writing creative lines of codes 👨‍💻</h4>
 
 <br/>
 
